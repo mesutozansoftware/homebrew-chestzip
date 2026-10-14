@@ -8,7 +8,7 @@ cask "chestzip" do
   homepage "https://github.com/mesutozansoftware/chestzip"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "ChestZip.app"
   binary "#{appdir}/ChestZip.app/Contents/MacOS/chestzip"
