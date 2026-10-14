@@ -6,4 +6,14 @@
 brew install --cask mesutozansoftware/chestzip/chestzip
 ```
 
-Güncelleme: `brew upgrade --cask chestzip` · Kaldırma: `brew uninstall --cask chestzip`
+Kısa adla (`brew install chestzip`) kurmak için tap'ı bir kez ekleyip güvenilir yapın:
+
+```bash
+brew tap mesutozansoftware/chestzip && brew trust mesutozansoftware/chestzip
+```
+
+```bash
+brew install chestzip
+```
+
+Güncelleme: `brew upgrade chestzip` · Kaldırma: `brew uninstall chestzip`
